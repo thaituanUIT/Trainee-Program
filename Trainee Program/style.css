@@ -10,6 +10,7 @@
 body
 {
     min-height: 100vh;
+    min-width: none;
     overflow-x: hidden;
     background: linear-gradient(#2b1055, #7597de);
 }
@@ -34,33 +35,39 @@ header .logo
     text-transform: uppercase;
     letter-spacing: 2px;
 }
-header nav ul
+.sec img
+{
+    width: 500px;
+    margin-bottom: 10px;
+}
+header button ul
 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-header nav ul li
+header button ul li
 {
     list-style: none;
     margin-left: 20px;
 }
-header nav ul li a
+header button ul li a
 {
     text-decoration: none;
     padding: 6px 15px;
     color: #fff;
     border-radius: 20px;
 }
-header nav ul li a:hover,
-header nav ul li a.active
+header button ul li a:hover,
+header button ul li a.active
 {
     background: #fff;
     color: #2b1055;
 }
-header nav
+header button
 {
-  float: right;
+    background: none;
+    border: none;
 }
 section
 {
@@ -121,13 +128,19 @@ section img#front
     color: #2b1055;
     font-size: 1.5em;
     z-index: 9;
-    transform: translateY(150px);
+    transform: translateY(170px);
 }
 .sec
 {
     position: relative;
     padding: 100px;
     background: #1c0522;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transition: transform 0.6s ease-in-out;
+    transition: transform 1s ease-in-out;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 .sec h2
 {
@@ -140,4 +153,18 @@ section img#front
     font-size: 1.2em;
     color: #fff;
 }
-
+a[id = "about"]:target ~ #about div.sec
+{
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+}
+a[id = "goal"]:target ~ #goal div.sec
+{
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+}
+a[id = "contact"]:target ~ #contact div.sec
+{
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+}

@@ -11,8 +11,9 @@ window.addEventListener('scroll', function(){
     moon.style.top = value * 1.05 + 'px';
     back.style.top = value * 0.5 + 'px';
     front.style.top = value * 0 + 'px';
-    text.style.marginRight = value * 3 + 'px';
+    text.style.marginRight = value * 2.5 + 'px';
     text.style.marginTop = value * 1.5 + 'px';
     btn.style.marginTop = value * 1.5 + 'px';
     header.style.marginTop = value * 0.5 + 'px';
 })
+
