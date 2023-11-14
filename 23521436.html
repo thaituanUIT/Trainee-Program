@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, rgba(413, 45, 45, 1) 0%, rgba(49, 412, 11018, 1) 100%);
+            background-attachment: fixed;
+            height: 100vh;
+            width: 100vw;
+            font-family: 'Roboto', sans-serif;
+            color: white;
+        }
+
+        #logo {
+            width: 150px;
+            margin-bottom: 10px;
+        }
+
+        #avatar {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .left-column {
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-right: 1px solid rgba(255, 255, 255, 0.2);
+            padding-right: 30px;
+        }
+
+        .right-column {
+            width: 470px;
+            margin-left: 30px;
+        }
+
+        .card {
+            background: rgba(0, 0, 0, 0.3);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+            width: 900px;
+            height: 600px;
+            padding: 50px;
+            border-radius: 12px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        h1,
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        a {
+            color: white;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        main {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="card">
+            <!-- Left Column -->
+            <div class="left-column">
+                <!-- Content for left column goes here --> 
+                <img id="logo"   src="https://lh3.googleusercontent.com/pw/ADCreHdaOMYiUdjIlNAkd_b5__H927yPc0fySkMRdRf1qaRgU26I1UW89DW_9LsfRbU7yvUEOfkbvk1sYWqNZIgNFAf40q51O1fZeMm91sAFycV-reJJcLw=w2400" />
+                <img id="avatar" src="https://s1.zerochan.net/Bongo.Cat.600.3353167.jpg" alt="" />
+                <div class="highlights">
+                    <h1>Bùi Ngọc Thiên Thanh</h1>
+                    <h2>Team 3 Leader</h2>
+                    <p>KHTN2023 - 23521436</p>
+                    <p>University of Information Technology, VNUHCM</p>
+                    <p>From Ho Chi Minh city</p>
+                </div>
+            </div> <!-- Right Column -->
+            <div class="right-column">
+                <!-- Content for right column goes here -->
+                <div class="section">
+                    <h2>About Me</h2>
+                    <p>I was born and raised in Ho Chi Minh City, but my hometown is Binh Dinh province. I’m an extrovert and quite sociable, though I can sometimes be a bit complex.</p>
+                </div>
+                <div class="section">
+                    <h2>My Hobbies</h2>
+                    <p>I have a passion for science and sci-fi movies. In addition, I have a knack for the arts, including design, playing musical instruments like the piano and kalimba, and origami. These activities help me unwind and recharge.</p>
+                </div>
+                <div class="section">
+                    <h2>My Future Goals</h2>
+                    <p>Cultivate myself with new knowledge.</p>
+                </div>
+                <div class="contacts"> 
+                    <a href="mailto:23521436@gm.uit.vn">Mail</a><br> <a
+                        href="https://github.com/Azure1709">Github</a><br> <a
+                        href="https://www.facebook.com/profile.php?id=100054726365224">Facebook</a> </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
