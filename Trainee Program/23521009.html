@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Card</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background:Aquamarine;
+            background-attachment: fixed;
+            backdrop-filter: blur(100px);
+            height: 100vh;
+            width: 100vw;
+            font-family: 'Roboto', sans-serif;
+            color: white;
+        }
+
+        #logo {
+            width: 150px;
+            margin-bottom: 10px;
+        }
+
+        #avatar {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .left-column {
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-right: 1px solid rgba(255, 255, 255, 0.2);
+            padding-right: 30px;
+        }
+
+        .right-column {
+            width: 470px;
+            margin-left: 30px;
+        }
+
+        .card {
+            background: rgba(0, 0, 0, 0.3);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+            -webkit-backdrop-filter: blur(100px);
+            backdrop-filter: blur(100px);
+            width: 900px;
+            height: 600px;
+            padding: 50px;
+            border-radius: 12px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        h1,
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        a {
+            color: white;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        main {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="card">
+            <!-- Left Column -->
+            <div class="left-column">
+                <!-- Content for left column goes here --> <img id="logo" src="https://lh3.googleusercontent.com/pw/ADCreHdaOMYiUdjIlNAkd_b5__H927yPc0fySkMRdRf1qaRgU26I1UW89DW_9LsfRbU7yvUEOfkbvk1sYWqNZIgNFAf40q51O1fZeMm91sAFycV-reJJcLw=w2400" />
+                <img id="avatar" src="https://i.pinimg.com/originals/e3/83/12/e38312d8dca4cfda1574e6ac50c548f0.jpg" alt="" />
+                <div class="highlights">
+                    <h1>Ho Trong Nghia</h1>
+                    <p>TTNT2023</p>
+                    <p>University of Information Technology, VNUHCM</p>
+                    <p>From Ho Chi Minh city</p>
+                </div>
+            </div> <!-- Right Column -->
+            <div class="right-column">
+                <!-- Content for right column goes here -->
+                <div class="section">
+                    <h2>About Me</h2>
+                    <p>My name is Ho Trong Nghia(Age 18). I'm from Hue province, Viet Nam. I am currently studying at the University of Information Technology and majoring in Artificial Intelligence (class TTNT2023).</p>
+                </div>
+                <div class="section">
+                    <h2>My Hobbies</h2>
+                    <p>My hobbies are playing League of Legends, badminton, going to the gym, and singing.</p>
+                </div>
+                <div class="section">
+                    <h2>My Future Goals</h2>
+                    <p>I want to have more new friends. Be successful at work and make a lot of money.</p>
+                </div>
+                <div class="contacts"> <a href="mailto:23521009@gm.uit.edu.vn">Mail: 23521009@gm.uit.edu.vn</a><br> <a
+
+                        href="https://github.com/Youngboy1609">Github: Youngboy1609</a><br> <a
+                        href="https://linkedin.com/in/yourprofile">Linkedin</a> </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
