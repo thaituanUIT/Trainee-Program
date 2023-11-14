@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Information Card</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-image: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
+            height: 100vh;
+            width: 100vw;
+            font-family: 'Roboto', sans-serif;
+            color: whitesmoke;
+        }
+        
+        #logo {
+            width: 150px;
+            margin-bottom: 10px;
+        }
+        
+        #avatar {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            transition: width 2s, height 2s, transform 2s;
+        }
+
+        #avatar:hover {
+            width: 300px;
+            height: 300px;
+            transform: rotate(360deg);
+        }
+        
+        .left-column {
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-right: 2px solid rgba(15, 1, 1, 0.2);
+            padding-right: 30px;
+        }
+        
+        .right-column {
+            width: 470px;
+            margin-left: 30px;
+        }
+        
+        .card {
+            background: rgba(53, 11, 122, 0.1);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(53, 11, 122, 0.15);
+            width: 900px;
+            height: 600px;
+            padding: 50px;
+            border-radius: 12px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        h1, h2 {
+            margin-bottom: 10px;
+            color: rgb(107, 0, 221);
+            text-shadow: 2px 2px 4px rgb(62, 1, 84)
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        a {
+            color: white;
+        }
+        
+        a:hover {
+            color: black;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        
+        main {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="card">
+            
+            <!-- Left Column -->
+            <div class="left-column">
+                <!-- Content for left column goes here -->
+                <img id="logo"
+                    src="https://lh3.googleusercontent.com/pw/ADCreHdaOMYiUdjIlNAkd_b5__H927yPc0fySkMRdRf1qaRgU26I1UW89DW_9LsfRbU7yvUEOfkbvk1sYWqNZIgNFAf40q51O1fZeMm91sAFycV-reJJcLw=w2400" />
+                <img id="avatar" src="C:\Users\DELL\Downloads\Avatar.png" alt="" />
+                <div class="highlights">
+                    <h1>Thanh Binh</h1>
+                    <p>KTMT2023.1</p>
+                    <p>23520162</p>
+                    <p>University of Information Technology, VNUHCM</p>
+                    <p>From Ho Chi Minh city</p>
+                </div>
+            </div>
+            
+            <!-- Right Column -->
+            <div class="right-column">
+                <!-- Content for right column goes here -->
+                <div class="section">
+                    <h2>Personal Information</h2>
+                    <p>Name : Trinh Nguyen Thanh Binh</p>
+                    <p>Age : 18 years old</p>
+                    <p>Gender: Male</p>
+                </div>
+                
+                <div class="section">
+                    <h2>My Hobbies</h2>
+                    <p>Game: Leauge of Legend, FC online,...</p>
+                    <p>Sport: Football, basketball, chess</p>
+                    <p>Food: Snack, steak, noodle, frìed chicken </p>
+                </div>
+                
+                <div class="section">
+                    <h2>Some interesting things about me</h2>
+                    <p>I am not introvert but I very shy when I make friend</p>
+                    <p>I very love money and I want to be a rich man</p>
+                    <p>If I have lots of money, I would bought lots of thing for my family and my lover </p>
+                </div>
+                
+                <div class="contacts">
+                    <a href="https://www.facebook.com/lienquan.sirou.1/">Facebook</a><br>
+                    <a href="https://github.com/Binhtrinh1905">Github</a><br>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+</body>
+</html> 
