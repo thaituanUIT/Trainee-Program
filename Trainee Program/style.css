@@ -112,11 +112,41 @@ section img#front
 {
     z-index: 10;
 }
+div button ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div button ul li
+{
+    list-style: none;
+    margin-left: 20px;
+}
+div button ul li a
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+div button ul li a:hover,
+div button ul li a.active
+{
+    background: #fff;
+    color: #2b1055;
+}
+div button
+{
+    background: none;
+    border: none;
+}
 #text
 {
     position: absolute;
     top: 180px;
-    right: 190px;
+    right: 300px;
     color: #fff;
     white-space: nowrap;
     font-size: 6.5vw;
@@ -171,11 +201,11 @@ a[id = "about"]:target ~ #about div.sec
     -webkit-transform: translateY(-100px);
     transform: translateY(-100px);
 }
-/* a[id = "goal"]:target ~ #goal div.sec
+a[id = "members"]:target ~ #members div.sec
 {
     -webkit-transform: translateY(-100px);
     transform: translateY(-100px);
-} */
+}
 
 a[id = "contact"]:target ~ #contact div.sec
 {
