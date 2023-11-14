@@ -9,7 +9,7 @@ This is our, team 3, website project.
 
 
 +After discussing about the project and reviewing Tuan's website:
-- Tuan and Huynh Tien decided to optimize the website <integer number> times.
+- Tuan and Huynh Tien decided to optimize the website many times.
 - Each member designed his/her own personal information card or use the template from Trainee Program, then each member pushed the card onto repository.
 - Tien adjusted the website to perfectly fit 11 personal cards, adding some more effects to it by using HTML/CSS/JS, then pulled and added 11 card into website. (we're using <iframe> to import personal card for convenient mean).
 - We published the code onto Trainee-Program.
