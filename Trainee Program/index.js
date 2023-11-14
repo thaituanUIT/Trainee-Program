@@ -17,15 +17,15 @@ window.addEventListener('scroll', function(){
     header.style.marginTop = value * 0.5 + 'px';
 })
 
-const addItem = (item) => {
-    ItemBox = document.getElementById("ics");
-    const card = document.createElement("li");
-    card.classList.add("card")
-    card.innerHTML = item.script;
-    ItemBox.appendChild(card);
-}
+// const addItem = (item) => {
+//     ItemBox = document.getElementById("ics");
+//     const card = document.createElement("li");
+//     card.classList.add("card")
+//     card.innerHTML = item.script;
+//     ItemBox.appendChild(card);
+// }
 
-for (let i = 0; i < projectdata.length; i++) {
-    addItem(projectdata[i]);
-    console.log(projectdata[i])
-}
+// for (let i = 0; i < projectdata.length; i++) {
+//     addItem(projectdata[i]);
+//     console.log(projectdata[i])
+// }
