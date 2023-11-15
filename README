@@ -40,10 +40,7 @@ _____________________________________________________________
 
 METHODS
 
-Thai Tuan:
-
-
-Viet Tien:
+Thai Tuan and Viet Tien:
     General Projects
     + Using the experience specialised in UI/UX to redesign and edit the details of the UI's website.
     + using a method inserting frames containing <information cards> to a <div> that is scrollable based on overflow x.
@@ -60,9 +57,7 @@ Viet Tien:
         ::-webkit-scrollbar {
             display: none;
         }
-    
-    My information cards
-    + Using basic methods to design a card.
+        
     + creative: 
         - QR Code
         - new layout
