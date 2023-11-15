@@ -1,0 +1,72 @@
+PROJECT IMPLEMENT WEBSITES ORGANISED BY TRAINEE PROGRAM 2023
+____________________________________________________________
+
+INTRODUCTION
+
+We are Team 3
+
+Contributors:
+1. Phùng Minh Chí
+2. Nguyễn Thị Thanh Tuyền
+3. Cù Nguyễn Huy Thái Tuấn
+4. Huỳnh Việt Tiến
+5. Phạm Triều Dương
+6. Nguyễn Thế Luân
+7. Bùi Ngọc Thiên Thanh - Leader
+8. Trịnh Nguyễn Thanh Bình
+9. Nguyễn Minh Phú
+10. Nguyễn Thành Nhân
+11. Hồ Trọng Nghĩa
+12. Huỳnh Trung Nghĩa
+
+____________________________________________________________
+
+DEPLOYMENTS:
+
+We are deploying a Github page living at: https://thaituanuit.github.io/Trainee-Program
+
+____________________________________________________________
+
+ABOUT US
+
+With the team's effort in dealing with this task, we pride ourselves and on our product.
+With the leading of the 7th contributor, we passed through obstacles on our way including the limitation of specialised knowledge.
+
+The 3rd and 4th contributors whose experiences designing and implementing websites assisted our team in doing the framework, layout, ... and fixing bugs.
+
+Among members, some of them used the existing template and others designed their own ideas. By the way, they tried their best in this duty with impressive success.
+
+_____________________________________________________________
+
+METHODS
+
+Thai Tuan:
+
+
+Viet Tien:
+    General Projects
+    + Using the experience specialised in UI/UX to redesign and edit the details of the UI's website.
+    + using a method inserting frames containing <information cards> to a <div> that is scrollable based on overflow x.
+        .container {
+            width: {limited-scale};
+            height: 100%;
+        }
+        div {
+            width: 100%; (overflow by the limited scale in width)
+            overflow-x: scroll;
+        }
+    + Hide scrollbar
+        
+        ::-webkit-scrollbar {
+            display: none;
+        }
+    
+    My information cards
+    + Using basic methods to design a card.
+    + creative: 
+        - QR Code
+        - new layout
+        - svg icon
+        
+Others:
+
