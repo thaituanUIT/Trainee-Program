@@ -4,7 +4,8 @@ let back = document.getElementById('back');
 let text = document.getElementById('text');
 let btn = document.getElementById('btn');
 let front = document.getElementById('front');
-let header = document.querySelector('header')
+let header = document.querySelector('header');
+
 window.addEventListener('scroll', function(){
     let value = window.scrollY;
     stars.style.left = value * 0.25 + 'px';
