@@ -176,7 +176,7 @@ div button
 .sec
 {
     position: relative;
-    padding: 100px;
+    padding: 50px 100px 50px 100px;
     background: linear-gradient(to bottom,#1c0522, transparent);
     -webkit-transform: translateZ(0);
     transform: translateZ(0);
@@ -184,6 +184,14 @@ div button
     transition: transform 1s ease-in-out;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
+}
+
+#about {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .sec.back {
@@ -204,6 +212,41 @@ iframe {
 {
     font-size: 1.2em;
     color: #fff;
+}
+
+.sec #intro {
+    width: 100%;
+    position: relative;
+    align-items: center;
+    display: flex;
+    color: #fff;
+}
+.sec #intro .back {
+    width: 100%;
+    height: 260px;
+    border-radius: 30px;
+    color: #fff;
+    object-fit: cover;
+}
+.sec #intro .black {
+    width: 100%;
+    height: 260px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: -1px;
+}
+
+.sec #intro h2 {
+    position: absolute;
+    top: 12px;
+    left: 4%;
+}
+
+.sec #intro p {
+    position: absolute;
+    top: 90px;
+    left: 4%;
 }
 
 .scrollBox {
@@ -280,7 +323,7 @@ a[id = "Name-2"]:target ~ #Name-2 div.frame
 a[id = "Name-3"]:target ~ #Name-3 div.frame
 {
     -webkit-transform: translateY(-200px);
-    transform: translateY(-150px);
+    transform: translateY(-180px);
 }
 a[id = "Name-4"]:target ~ #Name-4 div.frame
 {
